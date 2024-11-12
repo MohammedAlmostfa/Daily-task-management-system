@@ -1,0 +1,76 @@
+body {
+    font-family: "Figtree", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-image: url("https://projectsly.com/images/task-management-system-screenshot-1.png?v=1691124479409199525");
+    background-size: cover;
+    background-position: center;
+    color: rgb(25, 27, 29);
+}
+
+.auth-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.nav-link {
+    margin: 0 10px;
+    color: rgb(8, 7, 7);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.content {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.social-media {
+    margin-top: 20px;
+}
+
+.social-media {
+    text-align: center;
+    padding: 20px;
+}
+
+.social-link {
+    margin: 0 15px;
+    color: #111;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.social-link:hover {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.bi {
+    font-size: 2rem;
+    vertical-align: middle;
+}

@@ -1,0 +1,45 @@
+.card-body {
+    background-color: hsla(0, 0%, 79%, 0.713);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; /* لضبط محاذاة المحتوى في الأعلى */
+}
+.content {
+    flex-grow: 1;
+}
+.card .buttons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: flex-end; /* Align items to the right */
+    align-items: center; /* Center items vertically */
+}
+
+.card .buttons button {
+    margin-left: 10px; /* Space between buttons */
+    text-decoration: none; /* Remove underline from links */
+    display: inline-flex; /* Allow setting width and height */
+    justify-content: center; /* Center icon within link */
+    align-items: center; /* Center icon vertically */
+    width: 40px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    border-radius: 50%; /* Make them circular */
+    font-size: 20px; /* Increase icon size */
+    border: none; /* Remove border */
+    color: #eee; /* Icon color */
+}
+
+.card .buttons button i {
+    font-size: 20px; /* Increase icon size */
+}
+
+.card .buttons .btn-danger {
+    background-color: red; /* Background color */
+}
+
+.card .buttons .btn-primary {
+    background-color: #200cfa; /* Background color */
+}
+
+/* Optional: Add hover effect */
+.card .buttons a:hover {
+    opacity: 0.8; /* Change opacity on hover */
+}
